@@ -1,4 +1,10 @@
-public class QueensAttack2
+namespace Problems.QueensAttack2;
+
+/*
+This first attempt works on 13 out of 22 test cases.
+It fails on large values of n due to running out of memory for the matrix allocation.
+*/
+public class Attempt1
 {
     public static int Run(int n, int k, int r_q, int c_q, List<List<int>> obstacles)
     {
