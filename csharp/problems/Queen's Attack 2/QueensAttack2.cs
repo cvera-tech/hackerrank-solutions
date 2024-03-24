@@ -3,9 +3,9 @@ namespace Problems.QueensAttack2;
 /// <summary>
 /// https://www.hackerrank.com/challenges/queens-attack-2/
 /// </summary>
-public class QueensAttack2
+public class QueensAttack2 : IRunnable<Arguments, int>
 {
-    public static int Run(Arguments arguments)
+    public int Run(Arguments arguments)
     {
         int n = arguments.n;
         int k = arguments.k;

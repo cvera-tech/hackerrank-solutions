@@ -1,11 +1,10 @@
 namespace Problems.QueensAttack2;
 
-public class Arguments
+public class Arguments : ArgumentsBase<int>
 {
     public int n;
     public int k;
     public int r_q;
     public int c_q;
     public List<List<int>> obstacles = [];
-    public int expected;
 }
