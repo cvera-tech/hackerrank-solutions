@@ -5,4 +5,7 @@
 // new Problems.Encryption.TestRunner().RunTests();
 
 // Bigger is Greater
-new Problems.BiggerIsGreater.TestRunner().RunTests();
+// new Problems.BiggerIsGreater.TestRunner().RunTests();
+
+// Kaprekar
+new Problems.ModifiedKaprekarNumbers.TestRunner().RunTests();
