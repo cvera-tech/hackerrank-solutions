@@ -8,4 +8,7 @@
 // new Problems.BiggerIsGreater.TestRunner().RunTests();
 
 // Kaprekar
-new Problems.ModifiedKaprekarNumbers.TestRunner().RunTests();
+// new Problems.ModifiedKaprekarNumbers.TestRunner().RunTests();
+
+// Halloween Sale
+new Problems.HalloweenSale.TestRunner().RunTests();
